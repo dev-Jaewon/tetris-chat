@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+input:focus,
+button:focus,
+select:focus {
+    outline: 0;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 765px;
+    width: 300px;
+    color: white;
+    background: rgb(39, 39, 39);
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px;
+    overflow: overlay;
+    font-size: 17px;
+}
+
+form {
+    display: flex;
+}
+
+.input-content {
+    flex: 1;
+}
+
+.message {
+    display: flex;
+}
+
+.message > span {
+    margin-right: 10px;
+    white-space: nowrap;
+}
