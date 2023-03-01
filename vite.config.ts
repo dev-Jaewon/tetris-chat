@@ -9,7 +9,7 @@ export default defineConfig({
             name: "chatModule",
             filename: "remoteEntry.js",
             exposes: {
-                "./Chat": "./src/App",
+                "./Chat": "./src/components/Chat",
             },
             shared: ["react", "react-dom"],
         }),
